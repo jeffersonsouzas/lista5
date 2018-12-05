@@ -1,0 +1,10 @@
+tel = input("Informe o telefone: ")
+ct="3"
+
+if (len(tel) == 7):
+ 	print("Numero 3 incluso.")
+ 	for i in tel:
+ 		ct+=i
+ 	print(ct)
+else:
+	print("Número completo!")

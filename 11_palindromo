@@ -1,0 +1,9 @@
+f=input("Digite uma frase:  ")
+frase=[]
+for i in f:
+    if(i!=" "):
+        frase.append(i)
+if frase==frase[::-1]:
+    print("A frase é palíndromo.")
+else:
+    print("A frase não é palíndromo.")
